@@ -1,7 +1,7 @@
 # Veteriner Yönetim Sistemi - Full Stack Proje
 
 Veteriner Yönetim Sistemi Full Stack Projesi, hayvan sahipleri, hayvanlar, doktorlar, randevular, aşılar ve raporlar gibi veterinerlikle ilgili temel kayıtları yönetmek için geliştirilmiş bir web uygulamasıdır. Bu proje, hem backend hem de frontend kısmını içermektedir.
-Websitesine burdan ulaşabilirsiniz : vetapp-busrakocak.netlify.app
+Websitesine burdan ulaşabilirsiniz : [vetapp-busrakocak.netlify.app](https://vetapp-busrakocak.netlify.app/)
 #### Genel Bilgiler
 
 Projenin **Backend** kısmı,
