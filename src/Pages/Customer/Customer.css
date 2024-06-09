@@ -1,0 +1,110 @@
+.customerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  color: rgb(100, 7, 30);
+  min-height: 100vh;
+  max-width: 1400px;
+  margin: auto;
+}
+
+.newCustomer, 
+.updateCustomer, 
+.searchbar, 
+.list {
+  margin: 20px auto;
+  padding: 30px;
+  border-radius: 10px;
+  background-color:rgb(245, 238, 230);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 1400px; 
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+.newCustomer h1,
+.updateCustomer h3,
+.searchbar h3,
+.list h3 {
+  text-align: center; 
+  margin-bottom: 20px; 
+
+}
+
+.newCustomer input,
+.updateCustomer input,
+.searchbar input {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid rgb(230, 164, 180);
+  border-radius: 5px;
+}
+
+.newCustomer button,
+.updateCustomer button,
+.searchbutton,
+.reset-button {
+  padding: 10px 20px;
+  margin: 10px 5px;
+  font-size: 1rem;
+  color: rgb(255, 248, 227);
+  background-color: rgb(243, 215, 202);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.newCustomer button:hover,
+.updateCustomer button:hover,
+.searchbutton:hover,
+.reset-button:hover {
+  background-color: rgb(230, 164, 180);
+}
+
+.tablecontainer {
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th {
+
+  padding: 10px;
+  border: 41px solid rgb(18, 37, 209);
+  text-align: left;
+}
+
+.table th {
+  background-color: rgb(243, 215, 202);
+  color: rgb(0, 0, 0);
+  padding: 12px 48px
+}
+
+.table td {
+  background-color: rgb(245, 238, 230);
+  color: rgb(0, 0, 0);
+}
+
+.table tr:nth-child(even) {
+  background-color: rgb(245, 238, 230);
+}
+
+.table tr:hover {
+  background-color: rgb(243, 215, 202);
+}
+
+span {
+  cursor: pointer;
+  margin:5px ;
+ 
+}
